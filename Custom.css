@@ -1,0 +1,65 @@
+:root {
+--sidebar-active: #2E3440
+}
+/* Cuando se pone el cursor por encima */
+
+
+a, a:hover {
+color: #13abe8
+}
+
+/* REDONDEAR BARRA DE MENSAJES */ 
+
+.FilePreview__Container-sc-znkm6h-0 , .MessageBox__Base-sc-jul4fa-0 , .ReplyBar__Base-sc-d2l7w7-0 {
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* CENTRAR PERFIL */
+
+._profile_17p8w_21 {
+  flex-direction: column;
+}
+
+/* MARGEN DE LA BARRA
+.MessageBox__Action-sc-jul4fa-2 {
+  margin-right: 7px;
+}
+
+/* BURBUJA DE TEXTO - VARIANTE 1 */ 
+
+.jkmmZm{
+ border-style: solid;
+ border-width: 0.1px;
+ border-color: var(--tertiary-background);
+ border-radius: 5px;
+ background-color: var(--secondary-background);
+ padding: 10px;
+ flex-grow: 0;
+ box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+/* SOMBREADO A LAS CATEGORÍAS */ 
+.Details-sc-3j94yd-0 summary {
+ position: sticky;
+ top: 0;
+ margin-top: 10px;
+ margin-bottom: 6px;
+ padding-left: 12px;
+ background: var(--background);
+ backdrop-filter: blur(20px) brightness(0.9);
+ border-radius: var(--border-radius);
+}
+‎
+.Details-sc-3j94yd-0 summary:hover {
+ background: var(--secundary-background);
+}
